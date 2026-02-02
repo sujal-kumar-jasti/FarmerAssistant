@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MD Theme Colors (Dark) - Hardcoded Hex Values -->
+    <color name="md_theme_primary">#039B8F</color>
+    <color name="md_theme_onPrimary">#00382F</color>
+    <color name="md_theme_primaryContainer">#005145</color>
+    <color name="md_theme_onPrimaryContainer">#78F8E0</color>
+
+    <color name="md_theme_secondary">#B2CCC4</color>
+    <color name="md_theme_onSecondary">#1C3531</color>
+    <color name="md_theme_secondaryContainer">#334B46</color>
+    <color name="md_theme_onSecondaryContainer">#CDE9E0</color>
+
+    <color name="md_theme_tertiary">#B2C9E6</color>
+    <color name="md_theme_onTertiary">#16324A</color>
+    <color name="md_theme_tertiaryContainer">#2F4961</color>
+    <color name="md_theme_onTertiaryContainer">#CEE6FF</color>
+
+    <color name="md_theme_error">#FFB4AB</color>
+    <color name="md_theme_onError">#690005</color>
+    <color name="md_theme_errorContainer">#93000A</color>
+    <color name="md_theme_onErrorContainer">#FFDAD6</color>
+
+    <color name="md_theme_background">#1A1C1B</color>
+    <color name="md_theme_onBackground">#E2E2DF</color>
+    <color name="md_theme_surface">#1A1C1B</color>
+    <color name="md_theme_onSurface">#E2E2DF</color>
+    <color name="md_theme_surfaceVariant">#3F4945</color>
+    <color name="md_theme_onSurfaceVariant">#BFCDBE</color>
+    <color name="md_theme_outline">#89938D</color>
+    <color name="md_theme_outlineVariant">#3F4945</color>
+
+    <!-- CRITICAL FIX: Missing Aliases for Drawable/Theme Compatibility -->
+    <color name="background_light">@color/md_theme_background</color>
+    <color name="background_surface_light">@color/md_theme_surfaceVariant</color>
+    <color name="text_input_default_border">@color/md_theme_outline</color>
+    <color name="text_input_box_stroke">@color/md_theme_outline</color>
+
+    <!-- Custom Colors -->
+    <color name="whatsapp_green">#075E54</color>
+    <color name="whatsapp_light_green">#449B44</color>
+    <color name="whatsapp_green_dark">#3F4945</color>
+    <color name="error_red">#FFB4AB</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_input_border_default">#999797</color> <!-- White -->
+</resources>

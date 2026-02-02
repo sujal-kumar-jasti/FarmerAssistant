@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">விவசாயி உதவியாளர்</string>
+
+    <!-- Login/Register Strings -->
+    <string name="title_register">உங்கள் பண்ணை சுயவிவரத்தை உருவாக்கவும்</string>
+    <string name="hint_email">மின்னஞ்சல் (எ.கா: john@example.com)</string>
+    <string name="hint_password_min">கடவுச்சொல் (குறைந்தது 6 எழுத்துக்கள்)</string>
+    <string name="hint_name">முழு பெயர்</string>
+    <string name="hint_phone">தொலைபேசி எண்</string>
+    <string name="hint_state">மாநிலம்</string>
+    <string name="hint_district">மாவட்டம்</string>
+    <string name="hint_address">முழு பண்ணை முகவரி/கிராமம்</string>
+    <string name="hint_farm_type">பண்ணை வகை (எ.கா: கலப்புப் பயிர், தோட்டக்கலை)</string>
+    <string name="hint_crops_grown">முதன்மைக் பயிரிடப்பட்ட பயிர்கள் (எ.கா: கோதுமை, அரிசி, தக்காளி)</string>
+    <string name="btn_map_select">பண்ணை எல்லையை அமை/புதுப்பி</string>
+    <string name="btn_register">பதிவை முடிக்கவும்</string>
+    <string name="btn_logout">வெளியேறு</string>
+
+    <!-- Map Strings -->
+    <string name="btn_confirm_boundary">பண்ணை எல்லையை உறுதிப்படுத்தவும்</string>
+    <string name="btn_confirm_location">இருப்பிடத்தை உறுதிப்படுத்தவும்</string>
+    <string name="title_farm_location">பண்ணை இருப்பிடம்</string>
+    <string name="title_farm_boundary">பண்ணை எல்லை</string>
+    <string name="title_vertex">சிரசு %d</string>
+    <string name="desc_remove_vertex">புள்ளியை அகற்ற தட்டவும்</string>
+    <string name="title_my_farm_location">எனது பண்ணை இருப்பிடம்</string>
+    <string name="title_farm_center">பண்ணை மையம்</string>
+
+    <!-- Chatbot Strings -->
+    <string name="ask_a_farming_question">விவசாயம் தொடர்பான கேள்வியைக் கேளுங்கள்...</string>
+    <string name="send">அனுப்பு</string>
+
+    <!-- Disease Fragment Strings -->
+    <string name="photo_to_analyze">தாவர நோய் பகுப்பாய்வுக்கான புகைப்படம்</string>
+
+    <!-- Account Fragment Strings -->
+    <string name="title_profile">எனது விவசாயி சுயவிவரம்</string>
+    <string name="title_history">உள்ளூர் நோய் தேடல் வரலாறு:</string>
+    <string name="label_farmer_name">விவசாயி: %s</string>
+    <string name="label_address">முகவரி: %s</string>
+    <string name="btn_change_location">பண்ணை இருப்பிடத்தை மாற்றவும்</string>
+
+    <!-- Language Selection Strings -->
+    <string name="language_select_title">உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिन्दी (Hindi)</string>
+    <string name="lang_te">తెలుగు (Telugu)</string>
+    <string name="lang_kn">ಕನ್ನಡ (Kannada)</string>
+    <string name="lang_ta">தமிழ் (Tamil)</string>
+    <string name="language_change_confirm">மொழி வெற்றிகரமாக அமைக்கப்பட்டது!</string>
+    <string name="language_change_prompt">மொழியைத் தேர்ந்தெடு</string>
+
+    <!-- Messages and Errors -->
+    <string name="error_login_credentials_invalid">தயவுசெய்து செல்லுபடியாகும் மின்னஞ்சல் மற்றும் குறைந்தபட்சம் 6 எழுத்துகள் கொண்ட கடவுச்சொல்லை உள்ளிடவும்.</string>
+    <string name="error_missing_required_fields">அனைத்து தேவையான புலங்களையும் நிரப்பவும் மற்றும் பண்ணை இருப்பிடத்தை (எல்லை) தேர்ந்தெடுக்கவும்.</string>
+    <string name="prompt_complete_profile">வரவேற்கிறோம்! உங்கள் பண்ணை சுயவிவரத்தை பூர்த்தி செய்யவும்.</string>
+    <string name="message_profile_saved">சுயவிவரம் வெற்றிகரமாக சேமிக்கப்பட்டது!</string>
+    <string name="message_logged_out">வெற்றிகரமாக வெளியேற்றப்பட்டது.</string>
+    <string name="error_draw_boundary">குறைந்தது 3 புள்ளிகளுடன் எல்லையை வரைய, வரைபடத்தை நீண்ட நேரம் அழுத்தவும்.</string>
+    <string name="error_tap_map">உங்கள் இருப்பிடத்தைத் தேர்ந்தெடுக்க வரைபடத்தில் தட்டவும்.</string>
+    <string name="message_point_added">புள்ளி சேர்க்கப்பட்டது: மொத்தம் %d.</string>
+    <string name="message_point_removed">புள்ளி அகற்றப்பட்டது. %d எஞ்சியுள்ளது.</string>
+    <string name="error_location_selection_canceled">இருப்பிடத் தேர்வு ரத்து செய்யப்பட்டது.</string>
+    <string name="message_farm_boundary_set">பண்ணை எல்லை அமைக்கப்பட்டது (%d புள்ளிகள்)</string>
+    <string name="message_location_set">இருப்பிடம்: %s, %s</string>
+    <string name="message_location_not_set">இருப்பிடம் அமைக்கப்படவில்லை.</string>
+    <string name="message_location_loading">இருப்பிடம் ஏற்றப்படுகிறது...</string>
+    <string name="message_location_updated">பண்ணை இருப்பிடம் வெற்றிகரமாக புதுப்பிக்கப்பட்டது! தரவைப் புதுப்பிக்க காலநிலை தாவலை மீண்டும் திறக்கவும்.</string>
+    <string name="message_no_history">உள்ளூர் தேடல் வரலாறு எதுவும் கிடைக்கவில்லை.</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="content_desc_weather_icon">தற்போதைய வானிலை நிலை ஐகான்</string>
+    <string name="content_desc_wind_direction">காற்றின் திசை அம்பு</string>
+    <string name="error_loading_profile_data">சுயவிவரத் தரவை ஏற்றுவதில் பிழை.</string>
+    <!-- New Tab Headings -->
+    <string name="tab_disease">நோய் சோதனை</string>
+    <string name="tab_climate">காலநிலை</string>l
+    <string name="tab_market">சந்தை</string>
+    <string name="tab_chatbot">சாட்போட்</string>
+    <string name="tab_account">கணக்கு</string>
+
+    <!-- NEW Hardcoded UI Strings -->
+    <string name="btn_google_signin">Google மூலம் உள்நுழையவும்</string>
+    <string name="btn_log_in">உள்நுழையவும்</string>
+    <string name="link_register">கணக்கு வேண்டுமா? பதிவு செய்யவும்</string>
+    <string name="title_disease_analysis">பகுப்பாய்வு முடிவு:</string>
+    <string name="btn_capture">படம்பிடி</string>
+    <string name="btn_gallery">கேலரி</string>
+    <string name="btn_save_report">வரலாற்றில் அறிக்கையைச் சேமி</string>
+    <string name="title_climate_dashboard">பண்ணை காலநிலை டாஷ்போர்டு</string>
+    <string name="title_soil_health">தினசரி மண் ஆரோக்கியம்</string>
+    <string name="title_farming_alert">விவசாய நிலைமைகள் எச்சரிக்கை</string>
+    <string name="title_market_prices">மொத்த சந்தை விலைகள்</string>
+    <string name="title_latest_prices">சமீபத்திய பொருட்களின் விலைகள்</string>
+    <string name="chatbot_greeting_user">வணக்கம்! இன்று உங்கள் பண்ணைக்கு நான் எப்படி உதவ முடியும்?</string>
+
+    <!-- New Climate Detail Headings -->
+    <string name="title_current_conditions">தற்போதைய நிலைமைகளின் விவரங்கள்</string>
+    <string name="title_humidity">ஈரப்பதம்</string>
+    <string name="title_wind_speed">காற்றின் வேகம்/திசை</string>
+    <string name="title_pressure">அழுத்தம்</string>
+    <string name="title_sun_times">சூரிய உதயம் / அஸ்தமனம்</string>
+    <string name="title_five_day_forecast">5-நாள் முன்னறிவிப்பு</string>
+    <string name="btn_run_soil_analysis">மண் பகுப்பாய்வை இப்போதே இயக்கவும்</string>
+
+    <!-- Multi-Plot UI Strings -->
+    <string name="title_plot_name">நிலம் %d</string>
+    <string name="label_editing">திருத்துதல்</string>
+
+    <string name="btn_add_next_plot">நிலத்தைச் சேமித்து அடுத்துத் தொடங்கு</string>
+    <string name="btn_confirm_all_boundaries">அனைத்து %d எல்லைகளையும் உறுதிப்படுத்தவும்</string>
+
+    <!-- Multi-Plot Error Messages -->
+    <string name="error_plot_min_points">சேமிக்கும் முன் தற்போதைய நிலத்தில் குறைந்தது 3 புள்ளிகள் இருக்க வேண்டும்.</string>
+    <string name="error_finish_current_plot">தற்போதைய நிலத்தை வரைந்து முடிக்குமாறு கேட்டுக்கொள்கிறோம் (குறைந்தது 3 புள்ளிகள்).</string>
+    <string name="error_min_one_plot">நீங்கள் 3 அல்லது அதற்கு மேற்பட்ட புள்ளிகளுடன் குறைந்தபட்சம் ஒரு நிலத்தை வரையறுக்க வேண்டும்.</string>
+    <string name="message_point_added_to_plot">தற்போதைய நிலத்தில் புள்ளி சேர்க்கப்பட்டது: %d புள்ளிகள்.</string>
+    <string name="message_point_removed_from_plot">தற்போதைய நிலத்தில் இருந்து புள்ளி அகற்றப்பட்டது. %d எஞ்சியுள்ளது.</string>
+    <!-- New Multi-Plot Message -->
+    <string name="message_plot_saved">நிலம் சேமிக்கப்பட்டது. நிலம் %d ஐ வரையத் தொடங்கவும்.</string>
+    <!-- New Multi-Plot Error Message -->
+    <string name="error_radius_limit">புதிய நிலத்தின் எல்லை முதன்மை நிலத்தின் %.1f கி.மீ. சுற்றளவுக்குள் இருக்க வேண்டும்.</string>
+    <string name="google_maps_api_key">AIzaSyD3NrLzhHn1yckmILmQutPK3DC_xW5EFvo</string>
+    <!-- New Accessibility String -->
+    <string name="content_desc_map_editor">பண்ணை எல்லையை வரையும் வரைபடம். புள்ளிகளைச் சேர்க்க நீண்ட நேரம் அழுத்தவும்.</string>
+    <!-- New Accessibility String for Map Toggle -->
+    <string name="content_desc_map_toggle">வரைபடத்தை செயற்கைக்கோள் மற்றும் சாலைக் காட்சிக்கு இடையில் நிலைமாற்று</string>
+    <!-- Location Strings (CRITICAL POSITIONAL FIXES) -->
+    <string name="message_plots_set">பண்ணை நிலங்கள் அமைக்கப்பட்டது: %1$d।</string>
+    <string name="message_primary_location">முதன்மை இருப்பிடம்: அட்சரேகை %1$s, தீர்க்கரேகை %2$s</string>
+    <string name="message_single_location_set">ஒற்றை இருப்பிடம்: அட்சரேகை %1$s, தீர்க்கரேகை %2$s</string>
+    <string name="title_vertex_plot">P%1$d V%2$d</string>
+    <!-- New Location Status Message -->
+    <string name="message_location_not_selected">பண்ணை இருப்பிடம்: தேர்ந்தெடுக்கப்படவில்லை</string>
+
+    <string name="title_yield_prediction">பயிர் விளைச்சல் கணிப்பு</string>
+    <string name="label_expected_yield">எதிர்பார்க்கப்படும் அறுவடை (ஒரு ஹெக்டேருக்கு)</string>
+    <string name="label_growth_stage">தற்போதைய வளர்ச்சி நிலை</string>
+    <string name="label_schedule_optimization">அட்டவணை மேம்படுத்தல்</string>
+    <string name="label_yield_reduction_alert">விளைச்சல் குறைப்பு எச்சரிக்கை</string>
+    <string name="btn_run_yield_analysis">விளைச்சல் முன்னறிவிப்பை இயக்கவும்</string>
+    <string name="yield_analysis_running">தற்போதைய நிலைமைகளின் அடிப்படையில் விளைச்சல் கணிக்கப்படுகிறது...</string>
+    <string name="yield_analysis_default">எதிர்பார்க்கப்படும் விளைச்சல் மற்றும் வளர்ச்சி நிலையைக் காண முன்னறிவிப்பை இயக்கவும்.</string>
+
+    <string name="tab_yield">விளைச்சல்</string>
+    <string name="btn_check_market_prices">சந்தை விலைகளைச் சரிபார்க்கவும்</string>
+
+    <string name="map_type_satellite">செயற்கைக்கோள்</string>
+    <string name="map_type_normal">சாலை</string>
+    <string name="btn_delete_plot">மனையை நீக்கவும்</string>
+    <string name="btn_save_plot">ப்ளாட் விவரங்களைச் சேமி</string>
+    <string name="btn_save_and_add_new_plot">சேமித்து, புதிய ப்ளாட்டைத் தொடங்கு</string>
+    <string name="btn_save_changes_and_add_new">மாற்றங்களைச் சேமித்து, புதிய ப்ளாட்டைத் தொடங்கு</string>
+    <string name="message_plot_saved_or_updated">ப்ளாட் வெற்றிகரமாகச் சேமிக்கப்பட்டது/புதுப்பிக்கப்பட்டது. மொத்த ப்ளாட்கள்: %d</string>
+    <string name="message_plot_deleted">ப்ளாட் பட்டியலிலிருந்தும் Firebase இலிருந்தும் வெற்றிகரமாக நீக்கப்பட்டது.</string>
+    <string name="sign_in_screen_app_name">பிரமர் அசிஸ்டென்டில் உள்நுழையவும்</string>
+    <string name="message_no_disease_history">சமீபத்திய நோய் கண்டறிதல் வரலாறு எதுவும் காணப்படவில்லை.</string>
+    <string name="btn_get_mitigation">தணிப்பு ஆலோசனையைப் பெறுங்கள்</string>
+    <string name="btn_report_outbreak">நோய் பரவலைப் புகாரளிக்கவும்</string>
+    <string name="content_desc_photo_analyze">பகுப்பாய்வு செய்ய புகைப்படம்</string>
+    <string name="dialog_title_report_outbreak">பிராந்திய நோய் பரவலைப் புகாரளிக்கவும்</string>
+    <string name="dialog_message_regional_report">உங்கள் அண்டை விவசாயிகளுக்கு உதவுங்கள்! உங்கள் மாவட்டத்தில் உள்ள பண்ணைகளுக்கு இந்தப் பரவலைப் புகாரளிக்க விவரங்களை உறுதிப்படுத்தவும்.</string>
+    <string name="dialog_hint_crop">பாதிக்கப்பட்ட பயிர் (உங்கள் பட்டியலிலிருந்து தேர்ந்தெடுக்கவும்)</string>
+    <string name="dialog_hint_disease_confirmed">உறுதிப்படுத்தப்பட்ட நோய்</string>
+    <string name="dialog_hint_severity">பரவலின் தீவிரம்</string>
+    <string name="dialog_report">புகாரளி</string>
+    <string name="dialog_cancel">ரத்துசெய்</string>
+    <string name="title_regional_outbreaks">பிராந்திய திடீர் பரவல்கள்</string>
+    <string name="hint_manual_disease">உ.கா., ஃப்யூசேரியம் வில்ட் அல்லது கைமுறை பார்வையிடல்</string>
+    <string name="hint_select_farm">பண்ணை / நிலத்தை தேர்ந்தெடுக்கவும்</string>
+    <string name="hint_select_farm_title">விளைச்சல் பகுப்பாய்வு:</string>
+</resources>

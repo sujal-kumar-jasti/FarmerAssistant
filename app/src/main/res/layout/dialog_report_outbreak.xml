@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_title_report_outbreak"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        android:textColor="?attr/colorOnSurface"
+        android:visibility="gone"/>
+    <!-- Hiding title/message as MaterialAlertDialogBuilder adds its own title/message -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog_message_regional_report"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:visibility="gone"/>
+
+    <!-- Crop Selector (Dropdown) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilCrop"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/dialog_hint_crop">
+
+        <AutoCompleteTextView
+            android:id="@+id/actCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Disease Confirmation (Text Input) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/dialog_hint_disease_confirmed"  style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDiseaseConfirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:enabled="true"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Severity Selector -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilSeverity"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/dialog_hint_severity">
+
+        <AutoCompleteTextView
+            android:id="@+id/actSeverity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_map_select"
+        android:textAppearance="?attr/textAppearanceHeadlineSmall"
+        android:textColor="?attr/colorPrimary"
+        android:padding="16dp"
+        android:background="?attr/colorSurface"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="@string/hint_plot_name"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPlotName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:imeOptions="actionNext"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Crop Grown (e.g., Wheat, Rice)"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etCropType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:imeOptions="actionNext"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Soil Type (e.g., Black, Red, Loamy)"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etSoilType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:imeOptions="actionNext"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Irrigation Type (e.g., Drip, Canal, Flood)"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etIrrigationType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:imeOptions="actionDone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp"
+        app:strokeWidth="1dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/content_desc_map_editor"/>
+
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/mapTypeToggleGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                app:selectionRequired="true"
+                app:singleSelection="true">
+
+                <Button
+                    android:id="@+id/btnMapTypeSatellite"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_type_satellite"
+                    android:textSize="12sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"/>
+
+                <Button
+                    android:id="@+id/btnMapTypeNormal"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/map_type_normal"
+                    android:textSize="12sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="8dp"/>
+
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+        </FrameLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDeletePlot"
+            android:text="@string/btn_delete_plot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:paddingVertical="12dp"
+            app:cornerRadius="8dp"
+            style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+            app:icon="@drawable/ic_delete_24"
+            app:iconTint="?attr/colorError"
+            android:textColor="?attr/colorError"
+            android:visibility="gone" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddNextPlot"
+            android:text="@string/btn_add_next_plot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingVertical="12dp"
+            app:cornerRadius="8dp"
+            style="@style/Widget.Material3.Button.TonalButton"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmBtn"
+        android:text="@string/btn_confirm_all_boundaries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingVertical="12dp"
+        app:cornerRadius="8dp"/>
+
+</LinearLayout>

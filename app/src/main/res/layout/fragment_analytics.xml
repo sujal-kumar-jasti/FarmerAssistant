@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:padding="16dp"
+    tools:context=".ui.home.fragments.AnalyticsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Farm Analytics and Decision Support"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvAnalyticsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Loading historical data..."
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/md_theme_secondaryContainer"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AI Decision: Crop Rotation"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="?attr/colorOnSecondaryContainer"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:id="@+id/tvYieldRec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Checking history for best advice..."
+                    android:textAppearance="?attr/textAppearanceHeadlineSmall"
+                    android:textColor="?attr/colorOnSecondaryContainer"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Key Performance Indicators"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:id="@+id/metricsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+        </LinearLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="?attr/colorSurfaceVariant"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Historical Insights"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:id="@+id/tvDiseaseSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_marginBottom="8dp"
+                    tools:text="Total Reports: 15. Top Threat: Tomato___Late_blight"/>
+
+                <TextView
+                    android:id="@+id/tvYieldReductionSummary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnSurface"
+                    tools:text="Average Predicted Reduction (Last 30 Days): 4.5%"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnExportReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Export Full Report (PDF)"
+                    app:icon="@drawable/ic_file_download"
+                    android:layout_marginTop="20dp"
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title_register"
+            android:textAppearance="?attr/textAppearanceHeadlineMedium"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
+            android:padding="32dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <!-- Authentication Fields -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etRegEmail"
+                        android:hint="@string/hint_email"
+                        android:inputType="textEmailAddress"
+                        android:autofillHints="emailAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:endIconMode="password_toggle"
+                    android:layout_marginBottom="16dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etRegPassword"
+                        android:hint="@string/hint_password_min"
+                        android:inputType="textPassword"
+                        android:autofillHints="newPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Personal Fields -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etName"
+                        android:hint="@string/hint_name"
+                        android:inputType="textPersonName"
+                        android:autofillHints="name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etPhone"
+                        android:hint="@string/hint_phone"
+                        android:inputType="phone"
+                        android:autofillHints="phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- Location Fields -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etState"
+                        android:hint="@string/hint_state"
+                        android:inputType="textPostalAddress"
+                        android:autofillHints="addressRegion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etDistrict"
+                        android:hint="@string/hint_district"
+                        android:inputType="textPostalAddress"
+                        android:autofillHints="addressRegion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp">
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etAddress"
+                        android:hint="@string/hint_address"
+                        android:inputType="textPostalAddress"
+                        android:autofillHints="postalAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!-- NEW: Farm Specific Fields for Chatbot Context -->
+
+                <!-- Map Picker -->
+                <TextView
+                    android:id="@+id/tvFarmLocation"
+                    android:text="Farm Location: Not Selected"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:layout_marginBottom="8dp"
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMapPicker"
+                    android:text="@string/btn_map_select"
+                    android:backgroundTint="?attr/colorSecondary"
+                    android:textColor="?attr/colorOnSecondary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="12dp"
+                    app:cornerRadius="8dp"
+                    android:layout_marginBottom="24dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRegister"
+                    android:text="@string/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingVertical="12dp"
+                    app:cornerRadius="8dp"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>

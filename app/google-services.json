@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431935317983",
+    "project_id": "framer-assistant-a58bb",
+    "storage_bucket": "framer-assistant-a58bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431935317983:android:a310ce8639405af985466a",
+        "android_client_info": {
+          "package_name": "com.farmerassistant.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431935317983-oiilv1jcihnaha0r9gptkn3darofnhis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5GbX1tyTCsIXVlUuha4zIy9bL0gQKVnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431935317983-oiilv1jcihnaha0r9gptkn3darofnhis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

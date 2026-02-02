@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:id="@+id/diseaseFragmentScrollView">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilFarmSelector"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/hint_select_farm"
+            app:endIconMode="none"
+            android:clickable="true"
+            android:focusable="true">
+
+            <AutoCompleteTextView
+                android:id="@+id/actFarmSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="56dp"
+                android:inputType="none"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:longClickable="false"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                tools:text="Plot1" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?attr/colorSurface">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:clipChildren="true"
+                android:clipToPadding="false">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="?attr/colorSurfaceVariant"
+                    android:clipToOutline="true"
+                    android:outlineProvider="bounds">
+
+                    <ImageView
+                        android:id="@+id/ivPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_gallery1"
+                        app:tint="?attr/colorOutline"
+                        android:contentDescription="@string/content_desc_photo_analyze"/>
+                </FrameLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?android:attr/colorBackground">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCamera"
+                    android:text="@string/btn_capture"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_camera"
+                    style="@style/Widget.Material3.Button.Icon"
+                    />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnGallery"
+                    android:text="@string/btn_gallery"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp"
+                    android:layout_height="wrap_content"
+                    app:icon="@drawable/ic_gallery"
+                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+                    app:strokeColor="?attr/colorPrimary"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?attr/colorSurfaceVariant">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:text="@string/title_disease_analysis"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="?attr/colorPrimary"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tvPrediction"
+                    android:text="Prediction: Loading Model..."
+                    android:textAppearance="?attr/textAppearanceBodyLarge"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnMitigation"
+                android:text="@string/btn_get_mitigation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_chat_bubble_outline"
+                style="@style/Widget.Material3.Button.TonalButton"
+                app:cornerRadius="12dp"
+                android:paddingVertical="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnReportOutbreak"
+                android:text="@string/btn_report_outbreak"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_alert_bug"
+                style="@style/Widget.Material3.Button.Icon"
+                app:backgroundTint="?attr/colorError"
+                app:cornerRadius="12dp"
+                android:paddingVertical="12dp"/>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSaveReport"
+            android:text="@string/btn_save_report"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:paddingVertical="12dp"
+            app:cornerRadius="8dp"
+            android:layout_marginBottom="16dp"
+            style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+        <TextView
+            android:id="@+id/tvOutbreaksHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/title_regional_outbreaks"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorPrimary" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvOutbreaks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            android:layout_marginHorizontal="8dp"
+            android:paddingBottom="16dp"
+            tools:listitem="@layout/item_outbreak_report" />
+
+    </LinearLayout>
+</ScrollView>

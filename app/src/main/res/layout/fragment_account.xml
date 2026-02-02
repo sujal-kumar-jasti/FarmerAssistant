@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/accountFragmentScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title_profile"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?attr/colorSurfaceContainerHigh">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/accName"
+                    android:textAppearance="?attr/textAppearanceTitleMedium"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_marginBottom="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/accAddr"
+                    android:textAppearance="?attr/textAppearanceBodyMedium"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            android:layout_marginBottom="8dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivMapSnapshot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:visibility="gone"
+                    android:background="@android:color/darker_gray"
+                    android:contentDescription="@string/content_description_farm_map_snapshot" />
+
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/accountMapFragmentContainer"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="top|end"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="12dp">
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/btnMapToggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/content_desc_map_toggle"
+                        app:srcCompat="@drawable/ic_map_type"
+                        app:tint="?attr/colorPrimary"
+                        app:backgroundTint="?attr/colorSurfaceContainer"
+                        app:fabSize="mini"
+                        app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="8dp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_gravity="end"
+                        android:padding="0dp">
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnMapZoomIn"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center_horizontal"
+                            android:contentDescription="Zoom In"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:minWidth="0dp"
+                            android:minHeight="0dp"
+                            android:padding="0dp"
+                            android:text="+"
+                            android:textColor="?attr/colorOnSecondaryContainer"
+                            android:textSize="18sp"
+                            app:backgroundTint="?attr/colorSecondaryContainer"
+                            app:cornerRadius="17dp"
+                            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnMapZoomOut"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="1dp"
+                            android:contentDescription="Zoom Out"
+                            android:insetTop="0dp"
+                            android:insetBottom="0dp"
+                            android:minWidth="0dp"
+                            android:minHeight="0dp"
+                            android:padding="0dp"
+                            android:text="-"
+                            android:textColor="?attr/colorOnSecondaryContainer"
+                            android:textSize="18sp"
+                            app:backgroundTint="?attr/colorSecondaryContainer"
+                            app:cornerRadius="17dp"
+                            app:shapeAppearanceOverlay="@style/ShapeAppearance.Material3.Corner.Full"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:id="@+id/tvFarmLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/message_location_loading"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:layout_marginBottom="4dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangeLocation"
+            android:text="@string/btn_change_location"
+            style="@style/Widget.Material3.Button.TextButton"
+            app:cornerRadius="28dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnViewAnalytics"
+            android:text="View Farm Analytics"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            app:cornerRadius="28dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:text="@string/title_history"
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:textColor="?attr/colorPrimary"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            app:cardElevation="0dp"
+            app:cardMaxElevation="0dp"
+            app:cardCornerRadius="16dp"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="?attr/colorSurfaceContainerHigh">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:maxHeight="200dp"
+                android:padding="20dp">
+                <TextView
+                    android:id="@+id/tvLocalHistory"
+                    android:textAppearance="?attr/textAppearanceBodySmall"
+                    android:textColor="?attr/colorOnSurface"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </ScrollView>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChangeLanguage"
+            android:text="@string/language_change_prompt"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            app:cornerRadius="28dp"
+            android:layout_marginBottom="16dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logoutBtn"
+            android:text="@string/btn_logout"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="12dp"
+            app:cornerRadius="28dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

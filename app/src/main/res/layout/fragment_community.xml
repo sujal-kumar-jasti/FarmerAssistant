@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/communityFragmentRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:padding="16dp"
+    tools:context=".ui.home.fragments.CommunityFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Regional Knowledge Sharing"
+            android:textAppearance="?attr/textAppearanceHeadlineSmall"
+            android:textColor="?attr/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tvCommunityStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Connected to regional board. Loading posts..."
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNewPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Insight or Ask a Question"
+            app:icon="@drawable/ic_edit"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPosts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="false"
+            tools:itemCount="5"
+            tools:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/item_community_post" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">किसान सहायक</string>
+
+    <!-- Login/Register Strings -->
+    <string name="title_register">अपनी खेत प्रोफाइल बनाएं</string>
+    <string name="hint_email">ईमेल (उदाहरण: john@example.com)</string>
+    <string name="hint_password_min">पासवर्ड (न्यूनतम 6 अक्षर)</string>
+    <string name="hint_name">पूरा नाम</string>
+    <string name="hint_phone">फ़ोन नंबर</string>
+    <string name="hint_state">राज्य</string>
+    <string name="hint_district">ज़िला</string>
+    <string name="hint_address">पूरा पता/गाँव</string>
+    <string name="hint_farm_type">खेत का प्रकार (उदाहरण: मिश्रित फसल, बागवानी)</string>
+    <string name="hint_crops_grown">मुख्य उगाई गई फसलें (उदाहरण: गेहूं, चावल, टमाटर)</string>
+    <string name="btn_map_select">खेत की सीमा सेट/अपडेट करें</string>
+    <string name="btn_register">पंजीकरण पूरा करें</string>
+    <string name="btn_logout">लॉग आउट करें</string>
+
+    <!-- Map Strings -->
+    <string name="btn_confirm_boundary">खेत की सीमा की पुष्टि करें</string>
+    <string name="btn_confirm_location">स्थान की पुष्टि करें</string>
+    <string name="title_farm_location">खेत का स्थान</string>
+    <string name="title_farm_boundary">खेत की सीमा</string>
+    <string name="title_vertex">शीर्ष %d</string>
+    <string name="desc_remove_vertex">बिंदु हटाने के लिए टैप करें</string>
+    <string name="title_my_farm_location">मेरा खेत स्थान</string>
+    <string name="title_farm_center">खेत का केंद्र</string>
+
+    <!-- Chatbot Strings -->
+    <string name="ask_a_farming_question">खेती से जुड़ा कोई सवाल पूछें...</string>
+    <string name="send">भेजें</string>
+
+    <!-- Disease Fragment Strings -->
+    <string name="photo_to_analyze">पौधे की बीमारी के विश्लेषण के लिए फोटो</string>
+
+    <!-- Account Fragment Strings -->
+    <string name="title_profile">मेरी किसान प्रोफाइल</string>
+    <string name="title_history">स्थानीय रोग खोज इतिहास:</string>
+    <string name="label_farmer_name">किसान: %s</string>
+    <string name="label_address">पता: %s</string>
+    <string name="btn_change_location">खेत का स्थान बदलें</string>
+
+    <!-- Language Selection Strings -->
+    <string name="language_select_title">अपनी भाषा चुनें</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिन्दी (Hindi)</string>
+    <string name="lang_te">తెలుగు (Telugu)</string>
+    <string name="lang_kn">ಕನ್ನಡ (Kannada)</string>
+    <string name="lang_ta">தமிழ் (Tamil)</string>
+    <string name="language_change_confirm">भाषा सफलतापूर्वक सेट की गई!</string>
+    <string name="language_change_prompt">भाषा चुनें</string>
+
+    <!-- Messages and Errors -->
+    <string name="error_login_credentials_invalid">कृपया एक वैध ईमेल और कम से कम 6 अक्षरों का पासवर्ड दर्ज करें।</string>
+    <string name="error_missing_required_fields">कृपया सभी आवश्यक फ़ील्ड भरें और खेत का स्थान (सीमा) चुनें।</string>
+    <string name="prompt_complete_profile">स्वागत है! कृपया अपनी खेत प्रोफाइल पूरी करें।</string>
+    <string name="message_profile_saved">प्रोफाइल सफलतापूर्वक सहेजी गई!</string>
+    <string name="message_logged_out">सफलतापूर्वक लॉग आउट हो गए।</string>
+    <string name="error_draw_boundary">कम से कम 3 बिंदुओं वाली सीमा बनाने के लिए मैप पर देर तक दबाएं।</string>
+    <string name="error_tap_map">अपना स्थान चुनने के लिए मैप पर टैप करें।</string>
+    <string name="message_point_added">बिंदु जोड़ा गया: कुल %d।</string>
+    <string name="message_point_removed">बिंदु हटाया गया। %d शेष।</string>
+    <string name="error_location_selection_canceled">स्थान का चयन रद्द कर दिया गया।</string>
+    <string name="message_farm_boundary_set">खेत की सीमा सेट (%d बिंदु)</string>
+    <string name="message_location_set">स्थान: %s, %s</string>
+    <string name="message_location_not_set">स्थान सेट नहीं है।</string>
+    <string name="message_location_loading">स्थान लोड हो रहा है...</string>
+    <string name="message_location_updated">खेत का स्थान सफलतापूर्वक अपडेट हो गया! डेटा रीफ्रेश करने के लिए कृपया जलवायु टैब को फिर से खोलें।</string>
+    <string name="message_no_history">कोई स्थानीय खोज इतिहास उपलब्ध नहीं है।</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="content_desc_weather_icon">वर्तमान मौसम की स्थिति का आइकन</string>
+    <string name="content_desc_wind_direction">हवा की दिशा का तीर</string>
+    <string name="error_loading_profile_data">प्रोफाइल डेटा लोड करने में त्रुटि।</string>
+    <!-- New Tab Headings -->
+    <string name="tab_disease">रोग जांच</string>
+    <string name="tab_climate">जलवायु</string>
+    <string name="tab_market">बाज़ार</string>
+    <string name="tab_chatbot">चैटबॉट</string>
+    <string name="tab_account">खाता</string>
+
+    <!-- NEW Hardcoded UI Strings -->
+    <string name="btn_google_signin">गूगल से साइन इन करें</string>
+    <string name="btn_log_in">लॉग इन करें</string>
+    <string name="link_register">खाता चाहिए? साइन अप करें</string>
+    <string name="title_disease_analysis">विश्लेषण परिणाम:</string>
+    <string name="btn_capture">कैप्चर करें</string>
+    <string name="btn_gallery">गैलरी</string>
+    <string name="btn_save_report">रिपोर्ट इतिहास में सहेजें</string>
+    <string name="title_climate_dashboard">खेत जलवायु डैशबोर्ड</string>
+    <string name="title_soil_health">दैनिक मिट्टी स्वास्थ्य</string>
+    <string name="title_farming_alert">खेती की स्थिति चेतावनी</string>
+    <string name="title_market_prices">एकत्रित बाज़ार मूल्य</string>
+    <string name="title_latest_prices">नवीनतम वस्तु की कीमतें</string>
+    <string name="chatbot_greeting_user">नमस्कार! आज मैं आपके खेत में कैसे मदद कर सकता हूँ?</string>
+
+    <!-- New Climate Detail Headings -->
+    <string name="title_current_conditions">वर्तमान स्थितियों का विवरण</string>
+    <string name="title_humidity">नमी</string>
+    <string name="title_wind_speed">हवा की गति/दिशा</string>
+    <string name="title_pressure">दबाव</string>
+    <string name="title_sun_times">सूर्योदय / सूर्यास्त</string>
+    <string name="title_five_day_forecast">5-दिन का पूर्वानुमान</string>
+    <string name="btn_run_soil_analysis">मिट्टी विश्लेषण अभी चलाएं</string>
+
+    <!-- Multi-Plot UI Strings -->
+
+    <string name="title_plot_name">प्लॉट %d</string>
+    <string name="label_editing">संपादन</string>
+
+    <string name="btn_add_next_plot">प्लॉट सहेजें और अगला शुरू करें</string>
+    <string name="btn_confirm_all_boundaries">सभी %d सीमाओं की पुष्टि करें</string>
+
+    <!-- Multi-Plot Error Messages -->
+    <string name="error_plot_min_points">सहेजने से पहले वर्तमान प्लॉट में कम से कम 3 बिंदु होने चाहिए।</string>
+    <string name="error_finish_current_plot">कृपया वर्तमान प्लॉट को पूरा करें (न्यूनतम 3 बिंदु)।</string>
+    <string name="error_min_one_plot">आपको 3 या अधिक बिंदुओं वाला कम से कम एक प्लॉट परिभाषित करना होगा।</string>
+    <string name="message_point_added_to_plot">वर्तमान प्लॉट में बिंदु जोड़ा गया: %d बिंदु।</string>
+    <string name="message_point_removed_from_plot">वर्तमान प्लॉट से बिंदु हटाया गया। %d शेष।</string>
+    <!-- New Multi-Plot Message -->
+    <string name="message_plot_saved">प्लॉट सहेजा गया। प्लॉट %d बनाना शुरू करें।</string>
+    <string name="error_radius_limit">नया प्लॉट प्राथमिक प्लॉट के %.1f किमी दायरे में होना चाहिए।</string>
+    <string name="google_maps_api_key">AIzaSyD3NrLzhHn1yckmILmQutPK3DC_xW5EFvo</string>
+    <!-- New Accessibility String -->
+    <string name="content_desc_map_editor">खेत की सीमा खींचने वाला नक्शा। बिंदु जोड़ने के लिए देर तक दबाएँ।</string>
+    <!-- New Accessibility String for Map Toggle -->
+    <string name="content_desc_map_toggle">मानचित्र को उपग्रह और सड़क दृश्य के बीच टॉगल करें</string>
+    <!-- Location Strings (CRITICAL POSITIONAL FIXES) -->
+    <string name="message_plots_set">खेत के प्लॉट सेट: %1$d।</string>
+    <string name="message_primary_location">प्राथमिक स्थान: अक्षांश %1$s, देशांतर %2$s</string>
+    <string name="message_single_location_set">एकल स्थान: अक्षांश %1$s, देशांतर %2$s</string>
+    <string name="title_vertex_plot">P%1$d V%2$d</string>
+    <!-- New Location Status Message -->
+    <string name="message_location_not_selected">खेत का स्थान: नहीं चुना गया</string>
+    <string name="title_yield_prediction">फसल उपज पूर्वानुमान</string>
+    <string name="label_expected_yield">अपेक्षित उपज (प्रति हेक्टेयर)</string>
+    <string name="label_growth_stage">वर्तमान विकास चरण</string>
+    <string name="label_schedule_optimization">शेड्यूल अनुकूलन</string>
+    <string name="label_yield_reduction_alert">उपज में कमी की चेतावनी</string>
+    <string name="btn_run_yield_analysis">उपज पूर्वानुमान चलाएँ</string>
+    <string name="yield_analysis_running">वर्तमान परिस्थितियों के आधार पर उपज का पूर्वानुमान लगाया जा रहा है...</string>
+    <string name="yield_analysis_default">अपेक्षित उपज और विकास चरण देखने के लिए पूर्वानुमान चलाएँ।</string>
+    <string name="tab_yield">उपज</string>
+    <string name="btn_check_market_prices">बाज़ार की कीमतें जांचें</string>
+
+    <string name="map_type_satellite">सैटेलाइट</string>
+    <string name="map_type_normal">सड़क</string>
+    <string name="btn_delete_plot">भूखंड हटाएँ</string>
+
+    <string name="btn_save_plot">प्लॉट विवरण सहेजें</string>
+    <string name="btn_save_and_add_new_plot">सहेजें और नया प्लॉट शुरू करें</string>
+    <string name="btn_save_changes_and_add_new">परिवर्तन सहेजें और नया प्लॉट शुरू करें</string>
+    <string name="message_plot_saved_or_updated">प्लॉट सफलतापूर्वक सहेजा/अपडेट किया गया। कुल प्लॉट: %d</string>
+    <string name="message_plot_deleted">प्लॉट सूची और Firebase से सफलतापूर्वक हटा दिया गया।</string>
+    <string name="sign_in_screen_app_name">फार्मर असिस्टेंट में साइन इन करें</string>
+    <string name="message_no_disease_history">हाल ही में रोग का पता लगाने का कोई इतिहास नहीं मिला।</string>
+    <string name="btn_get_mitigation">शमन सलाह प्राप्त करें</string>
+    <string name="btn_report_outbreak">प्रकोप की रिपोर्ट करें</string>
+    <string name="content_desc_photo_analyze">विश्लेषण के लिए फोटो</string>
+    <string name="dialog_title_report_outbreak">क्षेत्रीय प्रकोप की रिपोर्ट करें</string>
+    <string name="dialog_message_regional_report">अपने पड़ोसियों की मदद करें! इस बीमारी को अपने जिले के खेतों तक रिपोर्ट करने के लिए विवरण की पुष्टि करें।</string>
+    <string name="dialog_hint_crop">प्रभावित फसल (अपनी सूची से चुनें)</string>
+    <string name="dialog_hint_disease_confirmed">पुष्टि की गई बीमारी</string>
+    <string name="dialog_hint_severity">प्रकोप की गंभीरता</string>
+    <string name="dialog_report">रिपोर्ट करें</string>
+    <string name="dialog_cancel">रद्द करें</string>
+    <string name="title_regional_outbreaks">क्षेत्रीय प्रकोप</string>
+    <string name="hint_manual_disease">उदा., फ्यूज़ेरियम विल्ट या मैन्युअल निरीक्षण</string> <!-- hi -->
+    <string name="hint_select_farm">फार्म / प्लॉट चुनें</string>
+    <string name="hint_select_farm_title">उपज विश्लेषण:</string>
+</resources>

@@ -1,0 +1,177 @@
+<resources>
+        <string name="app_name">FarmerAssistant</string>
+        <string name="default_web_client_id">YOUR_ACTUAL_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+        <string name="hint_email">Email</string>
+        <string name="title_register">Create Farmer Profile</string>
+        <string name="hint_password_min">Password (min 6 chars)</string>
+        <string name="hint_name">Full Name</string>
+        <string name="hint_phone">Phone Number</string>
+        <string name="hint_state">State</string>
+        <string name="hint_district">District</string>
+        <string name="hint_address">Full Address</string>
+        <string name="btn_map_select">Select Farm on Map</string>
+        <string name="btn_register">Register and Create Account</string>
+        <string name="send">Send</string>
+        <string name="ask_a_farming_question">Ask a farming question...</string>
+        <string name="hint_farm_type">farm type</string>
+        <string name="hint_crops_grown">crops grown</string>
+        <string name="language_select_title">Choose Your Language</string>
+        <string name="lang_en">English</string>
+        <string name="lang_hi">हिन्दी (Hindi)</string>
+        <string name="lang_te">తెలుగు (Telugu - Placeholder)</string>
+        <string name="lang_kn">ಕನ್ನಡ (Kannada - Placeholder)</string>
+        <string name="lang_ta">தமிழ் (Tamil - Placeholder)</string>
+        <string name="language_change_confirm">Language set successfully!</string>
+        <string name="language_change_prompt">Select Language</string>
+        <string name="btn_logout">Logout</string>
+
+        <!-- Map Strings -->
+        <string name="btn_confirm_boundary">Confirm Farm Boundary</string>
+        <string name="btn_confirm_location">Confirm Location</string>
+        <string name="title_farm_location">Farm Location</string>
+        <string name="title_farm_boundary">Farm Boundary</string>
+        <string name="title_vertex">Vertex %d</string>
+        <string name="desc_remove_vertex">Tap to remove point</string>
+        <string name="title_my_farm_location">My Farm Location</string>
+        <string name="title_farm_center">Farm Center</string>
+
+        <!-- Disease Fragment Strings -->
+        <string name="photo_to_analyze">Photo of plant disease to analyze</string>
+
+        <!-- Account Fragment Strings -->
+        <string name="title_profile">My Farmer Profile</string>
+        <string name="title_history">Local Disease Search History:</string>
+        <string name="label_farmer_name">Farmer: %s</string>
+        <string name="label_address">Address: %s</string>
+        <string name="btn_change_location">Change Farm Location</string>
+
+        <!-- Messages and Errors -->
+        <string name="error_login_credentials_invalid">Please enter a valid email and a password of at least 6 characters.</string>
+        <string name="error_missing_required_fields">Please fill all required fields and select farm location (boundary).</string>
+        <string name="prompt_complete_profile">Welcome! Please complete your farm profile.</string>
+        <string name="message_profile_saved">Profile saved successfully!</string>
+        <string name="message_logged_out">Logged out successfully.</string>
+        <string name="error_draw_boundary">Please long-press the map to draw a boundary with at least 3 points.</string>
+        <string name="error_tap_map">Please tap the map to select your location.</string>
+        <string name="message_point_added">Point added: %d total.</string>
+        <string name="message_point_removed">Point removed. %d remaining.</string>
+        <string name="error_location_selection_canceled">Location selection canceled.</string>
+        <string name="message_farm_boundary_set">Farm Boundary Set (%d points)</string>
+        <string name="message_location_set">Location: %s, %s</string>
+        <string name="message_location_not_set">Location not set.</string>
+        <string name="message_location_loading">Location loading...</string>
+        <string name="message_location_updated">Farm location updated successfully! Please re-open the Climate tab to refresh data.</string>
+        <string name="message_no_history">No local search history available.</string>
+
+        <!-- Content Descriptions (Accessibility) -->
+        <string name="content_desc_weather_icon">Current weather condition icon</string>
+        <string name="content_desc_wind_direction">Wind direction arrow</string>
+        <string name="error_loading_profile_data">Error loading profile data.</string>
+        <!-- New Tab Headings -->
+        <string name="tab_disease">Disease Check</string>
+        <string name="tab_climate">Climate</string>
+        <string name="tab_market">Market</string>
+        <string name="tab_chatbot">Chatbot</string>
+        <string name="tab_account">Account</string>
+
+        <string name="btn_google_signin">Sign In with Google</string>
+        <string name="btn_log_in">Log In</string>
+        <string name="link_register">Need an account? Sign Up</string>
+        <string name="title_climate_dashboard">Farm Climate Dashboard</string>
+        <string name="title_soil_health">Daily Soil Health</string>
+        <string name="title_farming_alert">Farming Conditions Alert</string>
+        <string name="title_market_prices">Aggregated Market Prices</string>
+        <string name="title_latest_prices">Latest Commodity Prices</string>
+        <string name="chatbot_greeting_user">Hello! How can I help you with your farm today?</string>
+
+        <string name="title_current_conditions">Current Conditions Details</string>
+        <string name="title_humidity">Humidity</string>
+        <string name="title_wind_speed">Wind Speed/Direction</string>
+        <string name="title_pressure">Pressure</string>
+        <string name="title_sun_times">Sunrise / Sunset</string>
+        <string name="title_five_day_forecast">5-Day Forecast</string>
+        <!-- New Climate Button String -->
+        <string name="btn_run_soil_analysis">Run Soil Analysis Now</string>
+
+        <!-- Multi-Plot UI Strings -->
+
+        <string name="title_plot_name">Plot %d</string>
+        <string name="label_editing">Editing</string>
+
+        <string name="btn_add_next_plot">Save Plot &amp; Start Next</string>
+        <string name="btn_confirm_all_boundaries">Confirm All %d Boundaries</string>
+
+        <!-- Multi-Plot Error Messages -->
+        <string name="error_plot_min_points">The current plot must have at least 3 points before saving.</string>
+        <string name="error_finish_current_plot">Please finish drawing the current plot (min 3 points).</string>
+        <string name="error_min_one_plot">You must define at least one plot with 3 or more points.</string>
+        <string name="message_point_added_to_plot">Point added to current plot: %d points.</string>
+        <string name="message_point_removed_from_plot">Point removed from current plot. %d remaining.</string>
+        <!-- New Multi-Plot Message -->
+        <string name="message_plot_saved">Plot saved. Start drawing Plot %d.</string>
+        <string name="error_radius_limit">New plot boundary must be within %.1f km radius of the primary plot.</string>
+        <!-- In res/values/strings.xml, replace the placeholder -->
+        <string name="google_maps_api_key">AIzaSyD3NrLzhHn1yckmILmQutPK3DC_xW5EFvo</string>
+        <!-- New Accessibility String for Map Toggle -->
+        <string name="content_desc_map_toggle">Toggle map between satellite and road view</string>
+        <!-- Used for MapSelectActivity accessibility -->
+        <string name="content_desc_map_editor">Farm boundary drawing map. Long press to add points.</string>
+        <!-- Location Strings (CRITICAL POSITIONAL FIXES) -->
+        <string name="message_plots_set">Plots Set: %1$d.</string>
+        <string name="message_primary_location">Primary Location: Lat %1$s, Lng %2$s</string>
+        <string name="message_single_location_set">Single Location: Lat %1$s, Lng %2$s</string>
+        <string name="title_vertex_plot">P%1$d V%2$d</string>
+        <string name="message_location_not_selected">Farm Location: Not selected</string>
+
+        <string name="title_yield_prediction">Crop Yield Prediction</string>
+        <string name="label_expected_yield">Expected Harvest (per Hectare)</string>
+        <string name="label_growth_stage">Current Growth Stage</string>
+        <string name="label_schedule_optimization">Schedule Optimization</string>
+        <string name="label_yield_reduction_alert">Yield Reduction Alert</string>
+        <string name="btn_run_yield_analysis">Run Yield Forecast</string>
+        <string name="yield_analysis_running">Forecasting yield based on current conditions...</string>
+        <string name="yield_analysis_default">Run the forecast to see expected yield and growth stage.</string>
+        <string name="tab_yield">Yield</string>
+        <string name="btn_check_market_prices">Check market prices</string>
+        <string name="map_type_satellite">Satellite</string>
+        <string name="map_type_normal">Road</string>
+        <string name="btn_delete_plot">Delete Plot</string>
+        <string name="btn_save_plot">Save Plot Details</string>
+        <string name="btn_save_and_add_new_plot">Save and Start New Plot</string>
+        <string name="btn_save_changes_and_add_new">Save Changes and Start New Plot</string>
+        <string name="message_plot_saved_or_updated">Plot saved/updated successfully. Total plots: %d</string>
+        <string name="message_plot_deleted">Plot removed successfully from list and Firebase.</string>
+        <string name="sign_in_screen_app_name">Sign In To Farmer Assistant</string>
+        <string name="message_no_disease_history">No recent disease detection history found.</string>
+        <!-- New Phase 13 Strings -->
+        <string name="btn_get_mitigation">Get Mitigation Advice</string>
+        <string name="btn_report_outbreak">Report Outbreak</string>
+        <string name="content_desc_photo_analyze">Photo to analyze</string>
+
+        <!-- Existing strings shown in fragments for context (e.g., in Disease Fragment) -->
+        <string name="btn_capture">Capture</string>
+        <string name="btn_gallery">Gallery</string>
+        <string name="title_disease_analysis">Disease Analysis</string>
+        <string name="btn_save_report">Save to Local History</string>
+        <string name="dialog_title_report_outbreak">Report Regional Outbreak</string>
+        <string name="dialog_message_regional_report">Help your neighbors! Confirm the details to report this disease to farms in your district.</string>
+        <string name="dialog_hint_crop">Crop Affected (Select from your list)</string>
+        <string name="dialog_hint_disease_confirmed">Confirmed Disease</string>
+        <string name="dialog_hint_severity">Severity of the Outbreak</string>
+        <string name="dialog_report">Report</string>
+        <string name="dialog_cancel">Cancel</string>
+        <string name="title_regional_outbreaks">Regional Outbreaks</string>
+        <string name="hint_manual_disease">e.g., Fusarium Wilt or Manual Observation</string>
+        <string name="hint_select_farm">Select Farm / Plot</string>
+        <string name="hint_select_farm_title">Yield Analysis for:</string>
+        <string name="hint_plot_name">Plot Name (e.g., North Field, Paddy 1)</string>
+        <string name="content_description_farm_map_snapshot">Last successful farm map snapshot for offline viewing</string>
+        <string name="btn_list_crop_for_sale">List Crop for Sale</string>
+        <string name="dialog_title_list_crop">Create Crop Listing</string>
+        <string name="dialog_list">List Crop</string>
+        <string name="label_crop_to_sell">Crop to Sell</string>
+        <string name="label_quantity_quintals">Quantity (Quintals)</string>
+        <string name="label_preferred_price">Preferred Modal Price (₹)</string>
+        <string name="btn_go_to_regional_forum">Go to Regional Forum</string>
+
+</resources>

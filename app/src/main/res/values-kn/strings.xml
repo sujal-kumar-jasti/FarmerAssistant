@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ರೈತ ಸಹಾಯಕಿ</string>
+
+    <!-- Login/Register Strings -->
+    <string name="title_register">ನಿಮ್ಮ ಕೃಷಿ ಪ್ರೊಫೈಲ್ ರಚಿಸಿ</string>
+    <string name="hint_email">ಇಮೇಲ್ (ಉದಾ: john@example.com)</string>
+    <string name="hint_password_min">ಪಾಸ್‌ವರ್ಡ್ (ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳು)</string>
+    <string name="hint_name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="hint_phone">ದೂರವಾಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="hint_state">ರಾಜ್ಯ</string>
+    <string name="hint_district">ಜಿಲ್ಲೆ</string>
+    <string name="hint_address">ಪೂರ್ಣ ಕೃಷಿ ವಿಳಾಸ/ಗ್ರಾಮ</string>
+    <string name="hint_farm_type">ಕೃಷಿ ಪ್ರಕಾರ (ಉದಾ: ಮಿಶ್ರ ಬೆಳೆ, ತೋಟಗಾರಿಕೆ)</string>
+    <string name="hint_crops_grown">ಮುಖ್ಯವಾಗಿ ಬೆಳೆದ ಬೆಳೆಗಳು (ಉದಾ: ಗೋಧಿ, ಭತ್ತ, ಟೊಮೆಟೊ)</string>
+    <string name="btn_map_select">ಕೃಷಿ ಗಡಿಯನ್ನು ಹೊಂದಿಸಿ/ನವೀಕರಿಸಿ</string>
+    <string name="btn_register">ನೋಂದಣಿ ಪೂರ್ಣಗೊಳಿಸಿ</string>
+    <string name="btn_logout">ಲಾಗ್ ಔಟ್</string>
+
+    <!-- Map Strings -->
+    <string name="btn_confirm_boundary">ಕೃಷಿ ಗಡಿಯನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="btn_confirm_location">ಸ್ಥಳವನ್ನು ದೃಢೀಕರಿಸಿ</string>
+    <string name="title_farm_location">ಕೃಷಿ ಸ್ಥಳ</string>
+    <string name="title_farm_boundary">ಕೃಷಿ ಗಡಿ</string>
+    <string name="title_vertex">ಶೃಂಗ %d</string>
+    <string name="desc_remove_vertex">ಪಾಯಿಂಟ್ ತೆಗೆದುಹಾಕಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+    <string name="title_my_farm_location">ನನ್ನ ಕೃಷಿ ಸ್ಥಳ</string>
+    <string name="title_farm_center">ಕೃಷಿ ಕೇಂದ್ರ</string>
+
+    <!-- Chatbot Strings -->
+    <string name="ask_a_farming_question">ಕೃಷಿ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿ...</string>
+    <string name="send">ಕಳುಹಿಸು</string>
+
+    <!-- Disease Fragment Strings -->
+    <string name="photo_to_analyze">ಸಸ್ಯ ರೋಗ ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಫೋಟೋ</string>
+
+    <!-- Account Fragment Strings -->
+    <string name="title_profile">ನನ್ನ ರೈತ ಪ್ರೊಫೈಲ್</string>
+    <string name="title_history">ಸ್ಥಳೀಯ ರೋಗ ಹುಡುಕಾಟ ಇತಿಹಾಸ:</string>
+    <string name="label_farmer_name">ರೈತ: %s</string>
+    <string name="label_address">ವಿಳಾಸ: %s</string>
+    <string name="btn_change_location">ಕೃಷಿ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಿ</string>
+
+    <!-- Language Selection Strings -->
+    <string name="language_select_title">ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="lang_en">English</string>
+    <string name="lang_hi">हिन्दी (Hindi)</string>
+    <string name="lang_te">తెలుగు (Telugu)</string>
+    <string name="lang_kn">ಕನ್ನಡ (Kannada)</string>
+    <string name="lang_ta">தமிழ் (Tamil)</string>
+    <string name="language_change_confirm">ಭಾಷೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ!</string>
+    <string name="language_change_prompt">ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <!-- Messages and Errors -->
+    <string name="error_login_credentials_invalid">ದಯವಿಟ್ಟು ಮಾನ್ಯವಾದ ಇಮೇಲ್ ಮತ್ತು ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳ ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ.</string>
+    <string name="error_missing_required_fields">ದಯವಿಟ್ಟು ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ ಕ್ಷೇತ್ರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ ಮತ್ತು ಕೃಷಿ ಸ್ಥಳವನ್ನು (ಗಡಿ) ಆಯ್ಕೆ ಮಾಡಿ.</string>
+    <string name="prompt_complete_profile">ಸ್ವಾಗತ! ದಯವಿಟ್ಟು ನಿಮ್ಮ ಕೃಷಿ ಪ್ರೊಫೈಲ್ ಪೂರ್ಣಗೊಳಿಸಿ.</string>
+    <string name="message_profile_saved">ಪ್ರೊಫೈಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!</string>
+    <string name="message_logged_out">ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಔಟ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="error_draw_boundary">ಕನಿಷ್ಠ 3 ಅಂಕಗಳೊಂದಿಗೆ ಗಡಿಯನ್ನು ಎಳೆಯಲು ದಯವಿಟ್ಟು ನಕ್ಷೆಯನ್ನು ದೀರ್ಘವಾಗಿ ಒತ್ತಿರಿ.</string>
+    <string name="error_tap_map">ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನಕ್ಷೆಯನ್ನು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="message_point_added">ಪಾಯಿಂಟ್ ಸೇರಿಸಲಾಗಿದೆ: ಒಟ್ಟು %d.</string>
+    <string name="message_point_removed">ಪಾಯಿಂಟ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ. %d ಉಳಿದಿದೆ.</string>
+    <string name="error_location_selection_canceled">ಸ್ಥಳ ಆಯ್ಕೆ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="message_farm_boundary_set">ಕೃಷಿ ಗಡಿ ಹೊಂದಿಸಲಾಗಿದೆ (%d ಅಂಕಗಳು)</string>
+    <string name="message_location_set">ಸ್ಥಳ: %s, %s</string>
+    <string name="message_location_not_set">ಸ್ಥಳ ಹೊಂದಿಸಲಾಗಿಲ್ಲ.</string>
+    <string name="message_location_loading">ಸ್ಥಳ ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+    <string name="message_location_updated">ಕೃಷಿ ಸ್ಥಳ ಯಶಸ್ವಿಯಾಗಿ ನವೀಕರಿಸಲಾಗಿದೆ! ದಯವಿಟ್ಟು ಡೇಟಾವನ್ನು ರಿಫ್ರೆಶ್ ಮಾಡಲು ಹವಾಮಾನ ಟ್ಯಾಬ್ ಅನ್ನು ಮತ್ತೆ ತೆರೆಯಿರಿ.</string>
+    <string name="message_no_history">ಯಾವುದೇ ಸ್ಥಳೀಯ ಹುಡುಕಾಟ ಇತಿಹಾಸ ಲಭ್ಯವಿಲ್ಲ.</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="content_desc_weather_icon">ಪ್ರಸ್ತುತ ಹವಾಮಾನ ಸ್ಥಿತಿ ಐಕಾನ್</string>
+    <string name="content_desc_wind_direction">ಗಾಳಿಯ ದಿಕ್ಕಿನ ಬಾಣ</string>
+    <string name="error_loading_profile_data">ಪ್ರೊಫೈಲ್ ಡೇಟಾ ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ.</string>
+    <!-- New Tab Headings -->
+    <string name="tab_disease">ರೋಗ ಪರಿಶೀಲನೆ</string>
+    <string name="tab_climate">ಹವಾಮಾನ</string>
+    <string name="tab_market">ಮಾರುಕಟ್ಟೆ</string>
+    <string name="tab_chatbot">ಚಾಟ್‌ಬಾಟ್</string>
+    <string name="tab_account">ಖಾತೆ</string>
+
+    <!-- NEW Hardcoded UI Strings -->
+    <string name="btn_google_signin">Google ನೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="btn_log_in">ಲಾಗ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="link_register">ಖಾತೆ ಬೇಕೇ? ಸೈನ್ ಅಪ್ ಮಾಡಿ</string>
+    <string name="title_disease_analysis">ವಿಶ್ಲೇಷಣಾ ಫಲಿತಾಂಶ:</string>
+    <string name="btn_capture">ಕ್ಯಾಪ್ಚರ್</string>
+    <string name="btn_gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="btn_save_report">ವರದಿಯನ್ನು ಇತಿಹಾಸಕ್ಕೆ ಉಳಿಸಿ</string>
+    <string name="title_climate_dashboard">ಕೃಷಿ ಹವಾಮಾನ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="title_soil_health">ದೈನಂದಿನ ಮಣ್ಣಿನ ಆರೋಗ್ಯ</string>
+    <string name="title_farming_alert">ಕೃಷಿ ಪರಿಸ್ಥಿತಿ ಎಚ್ಚರಿಕೆ</string>
+    <string name="title_market_prices">ಒಟ್ಟುಗೂಡಿಸಿದ ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳು</string>
+    <string name="title_latest_prices">ಇತ್ತೀಚಿನ ಸರಕುಗಳ ಬೆಲೆಗಳು</string>
+    <string name="chatbot_greeting_user">ನಮಸ್ಕಾರ! ನಿಮ್ಮ ಕೃಷಿಗೆ ನಾನು ಇಂದು ಹೇಗೆ ಸಹಾಯ ಮಾಡಬಹುದು?</string>
+
+    <!-- New Climate Detail Headings -->
+    <string name="title_current_conditions">ಪ್ರಸ್ತುತ ಪರಿಸ್ಥಿತಿಗಳ ವಿವರಗಳು</string>
+    <string name="title_humidity">ಆರ್ದ್ರತೆ</string>
+    <string name="title_wind_speed">ಗಾಳಿಯ ವೇಗ/ದಿಕ್ಕು</string>
+    <string name="title_pressure">ಒತ್ತಡ</string>
+    <string name="title_sun_times">ಸೂರ್ಯೋದಯ / ಸೂರ್ಯಾಸ್ತ</string>
+    <string name="title_five_day_forecast">5-ದಿನಗಳ ಮುನ್ಸೂಚನೆ</string>
+    <string name="btn_run_soil_analysis">ಮಣ್ಣಿನ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಈಗಲೇ ಚಾಲನೆಗೊಳಿಸಿ</string>
+
+    <!-- Multi-Plot UI Strings -->
+
+    <string name="title_plot_name">ಪ್ಲಾಟ್ %d</string>
+    <string name="label_editing">ಸಂಪಾದನೆ</string>
+
+    <string name="btn_add_next_plot">ಪ್ಲಾಟ್ ಉಳಿಸಿ &amp; ಮುಂದಿನದನ್ನು ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="btn_confirm_all_boundaries">ಎಲ್ಲಾ %d ಗಡಿಗಳನ್ನು ದೃಢೀಕರಿಸಿ</string>
+
+    <!-- Multi-Plot Error Messages -->
+    <string name="error_plot_min_points">ಉಳಿಸುವ ಮೊದಲು ಪ್ರಸ್ತುತ ಪ್ಲಾಟ್ ಕನಿಷ್ಠ 3 ಅಂಕಗಳನ್ನು ಹೊಂದಿರಬೇಕು.</string>
+    <string name="error_finish_current_plot">ದಯವಿಟ್ಟು ಪ್ರಸ್ತುತ ಪ್ಲಾಟ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ (ಕನಿಷ್ಠ 3 ಅಂಕಗಳು).</string>
+    <string name="error_min_one_plot">ನೀವು 3 ಅಥವಾ ಹೆಚ್ಚಿನ ಅಂಕಗಳೊಂದಿಗೆ ಕನಿಷ್ಠ ಒಂದು ಪ್ಲಾಟ್ ಅನ್ನು ವ್ಯಾಖ್ಯಾನಿಸಬೇಕು.</string>
+    <string name="message_point_added_to_plot">ಪ್ರಸ್ತುತ ಪ್ಲಾಟ್‌ಗೆ ಪಾಯಿಂಟ್ ಸೇರಿಸಲಾಗಿದೆ: %d ಅಂಕಗಳು.</string>
+    <string name="message_point_removed_from_plot">ಪ್ರಸ್ತುತ ಪ್ಲಾಟ್‌ನಿಂದ ಪಾಯಿಂಟ್ ತೆಗೆದುಹಾಕಲಾಗಿದೆ. %d ಉಳಿದಿದೆ.</string>
+    <!-- New Multi-Plot Message -->
+    <string name="message_plot_saved">ಪ್ಲಾಟ್ ಉಳಿಸಲಾಗಿದೆ. ಪ್ಲಾಟ್ %d ಅನ್ನು ಸೆಳೆಯಲು ಪ್ರಾರಂಭಿಸಿ.</string>
+    <!-- New Multi-Plot Error Message -->
+    <string name="error_radius_limit">ಹೊಸ ಪ್ಲಾಟ್‌ನ ಗಡಿಯು ಪ್ರಾಥಮಿಕ ಪ್ಲಾಟ್‌ನ %.1f ಕಿ.ಮೀ. ತ್ರಿಜ್ಯದೊಳಗೆ ಇರಬೇಕು.</string>
+    <string name="google_maps_api_key">AIzaSyD3NrLzhHn1yckmILmQutPK3DC_xW5EFvo</string>
+    <!-- New Accessibility String -->
+    <string name="content_desc_map_editor">ಕೃಷಿ ಗಡಿಯನ್ನು ಎಳೆಯುವ ನಕ್ಷೆ. ಪಾಯಿಂಟ್‌ಗಳನ್ನು ಸೇರಿಸಲು ದೀರ್ಘವಾಗಿ ಒತ್ತಿರಿ.</string>
+    <!-- New Accessibility String for Map Toggle -->
+    <string name="content_desc_map_toggle">ನಕ್ಷೆಯನ್ನು ಉಪಗ್ರಹ ಮತ್ತು ರಸ್ತೆ ನೋಟದ ನಡುವೆ ಟಾಗಲ್ ಮಾಡಿ</string>
+    <!-- Location Strings (CRITICAL POSITIONAL FIXES) -->
+    <string name="message_plots_set">ಪ್ಲಾಟ್‌ಗಳು ಹೊಂದಿಸಲಾಗಿದೆ: %1$d।</string>
+    <string name="message_primary_location">ಪ್ರಾಥಮಿಕ ಸ್ಥಳ: ಅಕ್ಷಾಂಶ %1$s, ರೇಖಾಂಶ %2$s</string>
+    <string name="message_single_location_set">ಏಕ ಸ್ಥಳ: ಅಕ್ಷಾಂಶ %1$s, ರೇಖಾಂಶ %2$s</string>
+    <string name="title_vertex_plot">P%1$d V%2$d</string>
+    <!-- New Location Status Message -->
+    <string name="message_location_not_selected">ಕೃಷಿ ಸ್ಥಳ: ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ</string>
+
+    <string name="title_yield_prediction">ಬೆಳೆ ಇಳುವರಿ ಭವಿಷ್ಯ</string>
+    <string name="label_expected_yield">ನಿರೀಕ್ಷಿತ ಇಳುವರಿ (ಪ್ರತಿ ಹೆಕ್ಟೇರ್‌ಗೆ)</string>
+    <string name="label_growth_stage">ಪ್ರಸ್ತುತ ಬೆಳವಣಿಗೆಯ ಹಂತ</string>
+    <string name="label_schedule_optimization">ವೇಳಾಪಟ್ಟಿ ಆಪ್ಟಿಮೈಸೇಶನ್</string>
+    <string name="label_yield_reduction_alert">ಇಳುವರಿ ಕಡಿತ ಎಚ್ಚರಿಕೆ</string>
+    <string name="btn_run_yield_analysis">ಇಳುವರಿ ಮುನ್ಸೂಚನೆ ಚಲಾಯಿಸಿ</string>
+    <string name="yield_analysis_running">ಪ್ರಸ್ತುತ ಪರಿಸ್ಥಿತಿಗಳ ಆಧಾರದ ಮೇಲೆ ಇಳುವರಿಯನ್ನು ಊಹಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="yield_analysis_default">ನಿರೀಕ್ಷಿತ ಇಳುವರಿ ಮತ್ತು ಬೆಳವಣಿಗೆಯ ಹಂತವನ್ನು ನೋಡಲು ಮುನ್ಸೂಚನೆಯನ್ನು ಚಲಾಯಿಸಿ.</string>
+    <string name="tab_yield">ಇಳುವರಿ</string>
+    <string name="btn_check_market_prices">ಮಾರುಕಟ್ಟೆ ಬೆಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+
+    <string name="map_type_satellite">ಉಪಗ್ರಹ</string>
+    <string name="map_type_normal">ರಸ್ತೆ</string>
+    <string name="btn_delete_plot">ಪ್ಲಾಟ್ ಅಳಿಸಿ</string>
+    <string name="btn_save_plot">ಪ್ಲಾಟ್ ವಿವರಗಳನ್ನು ಉಳಿಸಿ</string>
+    <string name="btn_save_and_add_new_plot">ಉಳಿಸಿ ಮತ್ತು ಹೊಸ ಪ್ಲಾಟ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="btn_save_changes_and_add_new">ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ ಮತ್ತು ಹೊಸ ಪ್ಲಾಟ್ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="message_plot_saved_or_updated">ಪ್ಲಾಟ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ/ಅಪ್ಡೇಟ್ ಮಾಡಲಾಗಿದೆ. ಒಟ್ಟು ಪ್ಲಾಟ್‌ಗಳು: %d</string>
+    <string name="message_plot_deleted">ಪ್ಲಾಟ್ ಅನ್ನು ಪಟ್ಟಿ ಮತ್ತು Firebase ನಿಂದ ಯಶಸ್ವಿಯಾಗಿ ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</string>
+    <string name="sign_in_screen_app_name">ಫಾರ್ಮರ್ ಅಸಿಸ್ಟೆಂಟ್‌ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="message_no_disease_history">ಇತ್ತೀಚಿನ ರೋಗ ಪತ್ತೆಹಚ್ಚುವಿಕೆಯ ಇತಿಹಾಸ ಕಂಡುಬಂದಿಲ್ಲ.</string>
+    <string name="btn_get_mitigation">ತಗ್ಗಿಸುವ ಸಲಹೆ ಪಡೆಯಿರಿ</string>
+    <string name="btn_report_outbreak">ರೋಗ ಹರಡುವಿಕೆಯನ್ನು ವರದಿ ಮಾಡಿ</string>
+    <string name="content_desc_photo_analyze">ವಿಶ್ಲೇಷಿಸಲು ಫೋಟೋ</string>
+    <string name="dialog_title_report_outbreak">ಪ್ರಾದೇಶಿಕ ರೋಗದ ಏಕಾಏಕಿ ವರದಿ ಮಾಡಿ</string>
+    <string name="dialog_message_regional_report">ನಿಮ್ಮ ನೆರೆಹೊರೆಯವರಿಗೆ ಸಹಾಯ ಮಾಡಿ! ನಿಮ್ಮ ಜಿಲ್ಲೆಯ ಕೃಷಿಭೂಮಿಗೆ ಈ ರೋಗವನ್ನು ವರದಿ ಮಾಡಲು ವಿವರಗಳನ್ನು ದೃಢೀಕರಿಸಿ.</string>
+    <string name="dialog_hint_crop">ಬಾಧಿತ ಬೆಳೆ (ನಿಮ್ಮ ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ)</string>
+    <string name="dialog_hint_disease_confirmed">ದೃಢಪಡಿಸಿದ ರೋಗ</string>
+    <string name="dialog_hint_severity">ಪ್ರಕೋಪದ ತೀವ್ರತೆ</string>
+    <string name="dialog_report">ವರದಿ ಮಾಡಿ</string>
+    <string name="dialog_cancel">ರದ್ದುಮಾಡು</string>
+    <string name="title_regional_outbreaks">ಪ್ರಾದೇಶಿಕ ಏಕಾಏಕಿ</string>
+    <string name="hint_manual_disease">ಉದಾ., ಫ್ಯೂಸೇರಿಯಮ್ ವಿಲ್ಟ್ ಅಥವಾ ಕೈಯಿಂದ ವೀಕ್ಷಣೆ</string> <!-- kn -->
+    <string name="hint_select_farm">ಫಾರ್ಮ್ / ಪ್ಲಾಟ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="hint_select_farm_title">ಉತ್ಪಾದನೆಯ ವಿಶ್ಲೇಷಣೆ:</string>
+</resources>

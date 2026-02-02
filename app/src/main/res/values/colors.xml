@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="md_theme_primary">#006A61</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#B6F2E2</color>
+    <color name="md_theme_onPrimaryContainer">#00201D</color>
+
+    <color name="md_theme_secondary">#4A635D</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_secondaryContainer">#E2EEEB</color>
+    <color name="md_theme_onSecondaryContainer">#07201C</color>
+
+    <color name="md_theme_tertiary">#47627A</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_tertiaryContainer">#E2EEEB</color>
+    <color name="md_theme_onTertiaryContainer">#001D34</color>
+
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_errorContainer">#FFDAD6</color>
+    <color name="md_theme_onErrorContainer">#410002</color>
+
+    <color name="md_theme_background">#FDFDFD</color>
+    <color name="md_theme_onBackground">#1A1C1B</color>
+    <color name="md_theme_surface">#FDFDFD</color>
+    <color name="md_theme_onSurface">#1A1C1B</color>
+
+    <color name="md_theme_surfaceVariant">#E2EEEB</color>
+    <color name="md_theme_onSurfaceVariant">#3F4945</color>
+    <color name="md_theme_outline">#6F7974</color>
+    <color name="md_theme_outlineVariant">#C7C5D0</color>
+
+    <!-- CRITICAL FIX: Missing Aliases for Drawable/Theme Compatibility -->
+    <color name="background_light">@color/md_theme_background</color>
+    <color name="background_surface_light">@color/md_theme_surfaceVariant</color>
+    <color name="text_input_default_border">@color/md_theme_outline</color>
+    <color name="text_input_box_stroke">@color/md_theme_outline</color>
+
+    <!-- Custom Colors -->
+    <color name="whatsapp_green">#006A61</color>
+    <color name="whatsapp_light_green">#5B9F9A</color>
+    <color name="whatsapp_green_dark">#00201D</color>
+    <color name="error_red">#BA1A1A</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_input_border_default">#101010</color> <!-- Black -->
+    <!-- Soil Colors -->
+    <color name="soil_sandy">#FFE0B2</color>
+    <color name="soil_black">#FF424242</color>
+    <color name="soil_red">#B71C1C</color>
+    <color name="soil_yellow">#FFC107</color>
+
+    <!-- Irrigation Colors -->
+    <color name="irrigation_blue_dark">#0D47A1</color>
+    <color name="irrigation_cyan">#00BCD4</color>
+    <color name="irrigation_green">#388E3C</color>
+    <color name="irrigation_orange">#FF9800</color>
+
+
+    <color name="severity_high">#D32F2F</color>
+    <color name="severity_medium">#FFB300</color>
+    <color name="severity_low">#4CAF50</color>
+    <color name="severity_none">#9E9E9E</color>
+
+</resources>

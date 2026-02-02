@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_disease"
+        android:icon="@drawable/ic_leaf"
+        android:title="@string/tab_disease" />
+
+    <item
+        android:id="@+id/nav_climate"
+        android:icon="@drawable/ic_cloud"
+        android:title="@string/tab_climate" />
+
+    <item
+        android:id="@+id/nav_yield"
+        android:icon="@drawable/ic_chart_line"
+        android:title="@string/tab_yield" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/tab_chatbot" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_person"
+        android:title="@string/tab_account" />
+</menu>

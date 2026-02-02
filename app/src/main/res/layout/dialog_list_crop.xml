@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_crop_to_sell"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox.ExposedDropdownMenu"
+            android:layout_marginBottom="16dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/actCrop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:maxLines="1"
+                android:autofillHints="" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_quantity_quintals"
+            app:suffixText="Quintals"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/label_preferred_price"
+            app:prefixText="₹"
+            app:suffixText="/Quintal"
+            style="@style/Widget.Material3.TextInputLayout.FilledBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLines="1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</ScrollView>

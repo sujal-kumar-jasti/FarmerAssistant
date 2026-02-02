@@ -6,7 +6,7 @@
 
 You can download the latest APK directly from the link below:
 
-[Download Farmer Assistant v1.0 APK](https://github.com/sujal-kumar-jasti/Farmer-Assistant/releases/download/v1.0.0/FarmerAssistant-v1.0.apk)
+[Download Farmer Assistant v1.0 APK](https://github.com/sujal-kumar-jasti/FarmerAssistant/releases/download/v1.0.0/FarmerAssistant-v1.0.apk)
 
 ### How to Install
 
